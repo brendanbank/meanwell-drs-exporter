@@ -1,0 +1,13 @@
+[Unit]
+Description=Meanwell DRS Monitor
+After=network.target
+
+[Service]
+Restart=always
+WorkingDirectory=/usr/local/drs
+Environment="PATH=/usr/local/drs/venv/bin:$PATH"
+ExecStart=/usr/local/drs/monitor.py
+
+[Install]
+WantedBy=multi-user.target
+
