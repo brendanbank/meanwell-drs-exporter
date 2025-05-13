@@ -66,3 +66,7 @@ Start the script fetch http://localhost:9534/metrics
     drs_metric_TEMPERATURE 37.8
 
 For all de modbus details see the Meanwell manual [here](https://www.meanwell.com/Upload/PDF/DRS-240,480.pdf)
+
+This will allow you to graph and alert on events.
+
+<img width="700" alt="grafana dashboard" src="https://github.com/user-attachments/assets/97e4a68d-83b9-47db-85a3-2219414af2ec" />
